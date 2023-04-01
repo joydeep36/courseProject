@@ -1,9 +1,11 @@
 body {
-    background-color: rgb(241, 171, 118);
+    /*background-color: rgb(241, 171, 118);*/
+    background-image: url(th.jpg);
+    background-size: cover;
   }
   
   header {
-    background-color: #c55b0a;
+    color: aquamarine;
     padding: 10px;
     text-align: center;
     font-size: 36px;
@@ -45,18 +47,31 @@ body {
     font-size: 20px ;
     font-weight: bold;
     margin-bottom: 20px;
+    margin-right: 1000px;
     padding: 20px;
+    background-color: azure;
   }
-  
+
+
+  li {
+    background-color: beige;
+
+  }
+
   ul li:hover {
     color: #2de808;
+    
   }
   
   input[type="range"] {
     width: 200px;
     margin-left: 10px;
+    background-color: rgb(255, 255, 255);
   }
   
+  label {
+    background-color: rgb(255, 255, 255);
+  }
  
   
   img {
@@ -68,9 +83,10 @@ body {
   }
   
   p {
+      background-color: #ffffff;
       margin: 20px;
-      margin-right: 5px;
-      font-weight: 600;
+      margin-right: 500px;
+      font-weight: bold;
     }
   
 
