@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        header {
+           
+            padding: 10px;
+            text-align: center;
+            font-size: 36px;
+            font-weight:bold;
+            color:rgb(53, 227, 9);
+             
+            
+          }
+        body {
+            
+            background-image:url("R.jpg");
+            background-size: cover;
+            background-position: center;
+            
+
+          }
+          nav {
+             background-color: #555;
+              color: #fff;
+              padding: 10px;
+              text-align: center;
+             }
+
+             nav a {
+                color: rgb(54, 213, 6);
+                padding: 5px 10px;
+                text-decoration: none;
+            }                
+            nav a:hover {
+                color: #10a7d4;
+            }
+
+            img {
+                float: left;
+                margin-left: 5cm;
+                width:450px;
+            }
+        
+             aside { 
+                background-color: beige;
+                width: 500px;
+                height: 500px; 
+                float: right ;
+                border-left: 4px solid #ef9c00;
+                color: rgb(11, 11, 11);
+                font-weight: bold;
+                font-size: larger;
+                margin-right: 20px;
+                
+                
+            }
+     </style>
+</head>
+       <body>
+        <header>
+            <h1>Road Bikes</h1>
+        </header>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="mountainbike.html">Mountain Bikes</a>
+            <a href="roadbike.html">Road Bikes</a>
+            <a href="hybrid.html">Hybrid Bikes</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="signup.html">Sign up</a>
+        </nav>
+        <br>
+        <br>
+        <img src="OIP (2).jpg">
+        <aside id="sidebar">
+        <table border="9">
+            <caption><strong>Bike Size for you</strong></caption>
+            <tr>
+            <th>Height</th>
+            <th>Frame Size</th>
+            <th>Size</th>
+            </tr>
+            <tr>
+                <td>4'10-5'3</td>
+                <td>47cm - 53cm</td>
+                <td>XSmall</td>
+            </tr>
+            <tr>
+                <td>5'3-5'6</td>
+                <td>51cm - 53cm</td>
+                <td>Small</td>
+            </tr>
+            <tr>
+                <td>5'6-5'10</td>
+                <td>54cm - 55cm</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>5'9-6'0</td>
+                <td>56cm - 58cm</td>
+                <td>Large</td>
+            </tr>
+            <tr>
+                <td>6'0-6'4</td>
+                <td>59cm - 61cm</td>
+                <td>XLarge</td>
+            </tr>
+            <form>
+            </table>
+            <br>
+            <br>
+            <br>
+            <label for="size">Select Size</label>
+            <input type="text" name="size" id="size" list="sizes">
+            <datalist id="sizes">
+                <option value=""></option>
+                <option value="Small"></option>
+                <option value="Medium"></option>
+                <option value="Large"></option>
+                <option value="XLarge"></option>
+            </datalist>
+            <br>
+            <br>
+            <br>
+            <label for="color">Choose your frame color:</label>
+            <input type="color" name="color" id="color">
+            <br>
+            <br>
+            <br>
+            <caption><strong>WheelSize:</strong></caption>
+            <br>
+            <label for="wheelSize">26":</label>
+            <input type="checkbox" name="size" id="size" value="26">
+            <br>
+            <label for="wheelSize">27.5":</label>
+            <input type="checkbox" name="size" id="size" value="27">
+            <br>
+            <br>
+            
+            <input type="submit" name="Sbutton" id="Sbutton" value="Submit">
+            <input type="reset" name="Rbutton" id="Rbutton" value="Reset">
+        </aside>
+        </form>
+    </body>
+</html>
